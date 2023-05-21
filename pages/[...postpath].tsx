@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.highrevenuegate.com/g3tvhxhf?key=5bdafc44174de8917a98d092a525919b/`
+					`https://zoblah.000webhostapp.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
